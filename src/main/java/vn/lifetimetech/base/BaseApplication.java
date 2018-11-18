@@ -1,4 +1,4 @@
-package vn.lifetimetech.base.core;
+package vn.lifetimetech.base;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
