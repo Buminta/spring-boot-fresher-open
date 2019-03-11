@@ -6,4 +6,5 @@ public interface UserService {
 
     UsersEntity getUserById(int id);
 
+    void seedAdminAccount();
 }

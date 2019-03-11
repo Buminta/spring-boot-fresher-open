@@ -10,11 +10,11 @@ public class UsersEntity {
     private int id;
     private String username;
     private String password;
-    private Integer email;
-    private Integer fullname;
-    private Integer phoneNumber;
-    private Integer skype;
-    private Integer role;
+    private String email;
+    private String fullname;
+    private String phoneNumber;
+    private String skype;
+    private String role;
     private int isDelFlag;
     private Integer createdId;
     private Timestamp createdAt;
@@ -53,51 +53,51 @@ public class UsersEntity {
 
     @Basic
     @Column(name = "email")
-    public Integer getEmail() {
+    public String getEmail() {
         return email;
     }
 
-    public void setEmail(Integer email) {
+    public void setEmail(String email) {
         this.email = email;
     }
 
     @Basic
     @Column(name = "fullname")
-    public Integer getFullname() {
+    public String getFullname() {
         return fullname;
     }
 
-    public void setFullname(Integer fullname) {
+    public void setFullname(String fullname) {
         this.fullname = fullname;
     }
 
     @Basic
     @Column(name = "phone_number")
-    public Integer getPhoneNumber() {
+    public String getPhoneNumber() {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(Integer phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
     @Basic
     @Column(name = "skype")
-    public Integer getSkype() {
+    public String getSkype() {
         return skype;
     }
 
-    public void setSkype(Integer skype) {
+    public void setSkype(String skype) {
         this.skype = skype;
     }
 
     @Basic
     @Column(name = "role")
-    public Integer getRole() {
+    public String getRole() {
         return role;
     }
 
-    public void setRole(Integer role) {
+    public void setRole(String role) {
         this.role = role;
     }
 
